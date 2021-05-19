@@ -26,7 +26,10 @@ If there is any negative weight cycle in graph, simply -1 is printed as the shor
 some source vertices because one can keep on traversing the loop and the path length would keep on reducing.\
 Else the output for that test case is as followed:\
 A 2 dimensional N x N matrix is printed (N rows each containing N single space separated values) \
-the kth value in ith row tells the distance of kth vertex from the ith vertex (source vertex) . (Kind of a N x N shortest path matrix) \
+The kth entry in the ith row (element i,k) contains the distance of kth vertex from the ith vertex (source vertex) . (Basically a N x N shortest path matrix) \
 The number 999999 is printed in a particular entry if the vertex is not reachable from the source vertex considered. \
 The last row contains T space seperated floating point numbers which indicate the time in seconds needed to produce the output after each test case. \
 The Tth entry in the last row indicates the time taken by the Tth test case. 
+
+# Sample Input Output
+![TestCasesLab6](https://user-images.githubusercontent.com/81764242/118811635-de744b00-b8ca-11eb-9b1d-b64da0f023dd.jpg)
