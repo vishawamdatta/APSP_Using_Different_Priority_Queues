@@ -14,7 +14,7 @@ D specifies whether Directed Graph or undirected graph (D=0 means undirected, D=
 This is then followed by N lines each containing N integers (basically NxN Adjacency matrix representation of the graph of that test case).\
 The NxN matrix integers denote the edge-weights,it is assumed that there are no self-loops in the input graph,\
 hence the diagonal entries are always zero in the input matrix and the weight=999999 indicates that there is no edge \
-between the two concerned vertices.\
+between the two concerned vertices.
 
 # Output Format
 For each test case,\
@@ -26,4 +26,4 @@ the kth value in ith row tells the distance of kth vertex from the ith vertex (s
 The number 999999 is printed in a particular entry if the vertex is not reachable from the source vertex considered. \
 \
 The last row contains T space seperated floating point numbers which indicate the time in seconds needed to produce the output after each test case. \
-The Tth entry in the last row indicates the time taken by the Tth test case. \
+The Tth entry in the last row indicates the time taken by the Tth test case. 
