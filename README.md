@@ -2,10 +2,15 @@
 Implemented Johnson's Graph Algorithm to find the shortest path between all pairs of nodes using different data structures as priority queues namely 1D array , binary heap , binomial heap and fibonacci heap and their performance is analyzed on dense as well as sparse graphs.
 
 # How To Run 
-Simply compile the file JohnsonAPSP.cpp using g++ and execute it.\
+Simply compile the file JohnsonAPSP.cpp using g++ compiler and execute it.
 
 # Input Format
-First line: An integer T which specifies the number of test cases and then follows their description\
+First line: An integer between 1 and 4 , specifying which data structure to use as the priority queue in the algorithm\
+1.Sorted Array\
+2.Binary Heap\
+3.Binomial Heap\
+4.Fibonacci Heap\
+Second line: A positive integer T which specifies the number of test cases and then follows their description\
 For each test case,\
 First line contains as input 2 integers N D (single space separated)\
 where:-\
