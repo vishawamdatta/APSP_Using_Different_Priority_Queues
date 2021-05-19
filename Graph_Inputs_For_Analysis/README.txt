@@ -8,5 +8,5 @@ number [1,2,3 or 4] as a command line argument , but for the ease of everyone I 
 that functionality and hence now the user can enter the priority queue number in the first line 
 itself.
 
-The python code used to generate the adjacency list representation of different random graphs is also 
+The python code used to generate the adjacency matrix representation of different random graphs is also 
 provided here.
