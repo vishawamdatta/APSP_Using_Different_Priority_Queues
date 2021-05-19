@@ -1,2 +1,29 @@
 # APSP_Using_Different_Priority_Queues
-Implemented Johnson's Graph Algorithm to find the shortest path between all pairs of nodes using different data structures as priority queues namely 1D array , binary heap , binomial heap and fibonacci heap and there relative performance is analyzed on dense as well as sparse graphs.
+Implemented Johnson's Graph Algorithm to find the shortest path between all pairs of nodes using different data structures as priority queues namely 1D array , binary heap , binomial heap and fibonacci heap and their performance is analyzed on dense as well as sparse graphs.
+
+# How To Run 
+Simply compile the file JohnsonAPSP.cpp using g++ and execute it.
+
+# Input Format
+First line: Number of Test Cases T and then follows their description
+For each test case,
+First line contains as input 2 numbers N D (single space separated)
+where:-
+N is the number of vertices in the graph where vertices are labelled from 1 to N (not 0 indexing)
+D specifies whether Directed Graph or undirected graph (D=0 means undirected, D=1 means it is directed)
+This is then followed by N lines each containing N integers (basically NxN Adjacency matrix representation of the graph of that test case).
+The NxN matrix integers denote the edge-weights,it is assumed that there are no self-loops in the input graph,
+hence the diagonal entries are always zero in the input matrix and the weight=999999 indicates that there is no edge 
+between the two concerned vertices.
+
+# Output Format
+For each test case,
+If there is any negative weight cycle in graph, simply -1 is printed as the shortest path is not well defined for atleast
+some source vertices because one can keep on traversing the loop and the path length would keep on reducing.
+Else the output for that test case is as followed:
+A 2 dimensional N x N matrix is printed (N rows each containing N single space separated values) 
+the kth value in ith row tells the distance of kth vertex from the ith vertex (source vertex) . (Kind of NxN shortest path matrix)
+The number 999999 is printed in a particular entry if the vertex is not reachable from the source vertex considered.
+
+The last row contains T space seperated floating point numbers which indicate the time in seconds needed to produce the output after each test case.
+The Tth entry in the last row indicates the time taken by the Tth test case.
