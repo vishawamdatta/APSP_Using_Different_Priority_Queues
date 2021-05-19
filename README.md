@@ -32,4 +32,5 @@ The last row contains T space seperated floating point numbers which indicate th
 The Tth entry in the last row indicates the time taken by the Tth test case. 
 
 # Sample Input Output
-![TestCasesLab6](https://user-images.githubusercontent.com/81764242/118811635-de744b00-b8ca-11eb-9b1d-b64da0f023dd.jpg)
+![TestCasesLab62](https://user-images.githubusercontent.com/81764242/118812062-5b072980-b8cb-11eb-81c7-f3e03ee107d2.jpg)
+
