@@ -5,9 +5,9 @@ Implemented Johnson's Graph Algorithm to find the shortest path between all pair
 Simply compile the file JohnsonAPSP.cpp using g++ and execute it.\
 
 # Input Format
-First line: Number of Test Cases T and then follows their description\
+First line: An integer T which specifies the number of test cases and then follows their description\
 For each test case,\
-First line contains as input 2 numbers N D (single space separated)\
+First line contains as input 2 integers N D (single space separated)\
 where:-\
 N is the number of vertices in the graph where vertices are labelled from 1 to N (not 0 indexing)\
 D specifies whether Directed Graph or undirected graph (D=0 means undirected, D=1 means it is directed)\
